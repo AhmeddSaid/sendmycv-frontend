@@ -1,0 +1,62 @@
+{
+  id: 'cs_live_b1sd1EcMiurxMw5LSxxcNACkXx1QnhNQQgDJEvyZR6nkJMSxqaYnOiIpgO',
+  object: 'checkout.session',
+  adaptive_pricing: { enabled: true },
+  after_expiration: null,
+  allow_promotion_codes: true,
+  amount_subtotal: 10000,
+  amount_total: 0,
+  automatic_tax: { enabled: false, liability: null, status: null },
+  billing_address_collection: 'required',
+  cancel_url: 'http://localhost:3000/pay/cancel',
+  client_reference_id: null,
+  client_secret: null,
+  collected_information: null,
+  consent: { promotions: null, terms_of_service: 'accepted' },
+  consent_collection: {
+    payment_method_reuse_agreement: null,
+    promotions: 'none',
+    terms_of_service: 'required'
+  },
+  created: 1744815122,
+  currency: 'usd',
+  currency_conversion: null,
+  custom_fields: [],
+  custom_text: {
+    after_submit: null,
+    shipping_address: null,
+    submit: null,
+    terms_of_service_acceptance: null
+  },
+  customer: null,
+  customer_creation: 'if_required',
+
+
+
+
+
+
+
+
+
+  payment_method_options: { card: { request_three_d_secure: 'automatic' } },
+  payment_method_types: [ 'card', 'link' ],
+  payment_status: 'paid',
+  permissions: null,
+  phone_number_collection: { enabled: true },
+  recovered_from: null,
+  saved_payment_method_options: null,
+  setup_intent: null,
+  shipping_address_collection: null,
+  shipping_cost: null,
+  shipping_details: null,
+  shipping_options: [],
+  status: 'complete',
+  submit_type: 'pay',
+  subscription: null,
+  success_url: 'http://localhost:3000/pay/success?session_id={CHECKOUT_SESSION_ID}',
+  total_details: { amount_discount: 10000, amount_shipping: 0, amount_tax: 0 },
+  ui_mode: 'hosted',
+  url: null,
+  wallet_options: null
+}

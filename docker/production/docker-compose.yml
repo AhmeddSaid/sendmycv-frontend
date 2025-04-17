@@ -1,0 +1,16 @@
+services:
+  student-portal-production:
+    build:
+      context: ../../
+      dockerfile: docker/production/Dockerfile
+    image: app-env-production
+    networks:
+      - app-network
+    ports:
+      - "2973:2973"
+
+
+
+networks:
+  app-network:
+    driver: bridge
